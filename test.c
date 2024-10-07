@@ -101,8 +101,11 @@ int main ()
     printf("% d\n", -42);
 
     ft_printf("-----------------OTHER-----------------\n");
-    ft_printf("%s\n", NULL);
-    printf("%s\n", NULL);
+    // ft_printf("%s\n", NULL);
+    // printf("%s\n", NULL);
+    char *s1 = NULL;
+    ft_printf("%s\n", s1);
+    printf("%s\n", s1);
 
 
     return (0);
