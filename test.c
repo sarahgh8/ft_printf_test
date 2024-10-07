@@ -105,7 +105,7 @@ int main ()
     // printf("%s\n", NULL);
     char *s1 = NULL;
     ft_printf("%s\n", s1);
-    printf("%s\n", s1);
+    //printf("%s\n", s1);
 
     ft_printf("%c\n", 0);
     printf("%c\n", 0);
