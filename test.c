@@ -108,16 +108,16 @@ int main ()
     //printf("%s\n", s1);
 
     ft_printf("%c\n", 0);
-    printf("%c\n", 0);
+    //printf("%c\n", 0);
 
     ft_printf("%##########x\n", 42);
     printf("%##########x\n", 42);
 
-    ft_printf("%      d", 42);
-    printf("%      d", 42);
+    ft_printf("%      d\n", 42);
+    printf("%      d\n", 42);
 
-    ft_printf("%      d", -42);
-    printf("%      d", -42);
+    ft_printf("%      d\n", -42);
+    printf("%      d\n", -42);
 
 
 
