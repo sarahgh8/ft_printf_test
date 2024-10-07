@@ -100,6 +100,10 @@ int main ()
     ft_printf("% d\n", -42);
     printf("% d\n", -42);
 
+    ft_printf("-----------------OTHER-----------------\n");
+    ft_printf("%s\n", NULL);
+    printf("%s\n", NULL);
+
 
     return (0);
 }
