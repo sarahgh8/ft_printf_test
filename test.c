@@ -99,13 +99,16 @@ int main ()
     ft_printf("-----------------COUNTER-----------------\n");
     ft_printf("%d\n", ft_printf("Hello, %s! %d %x %X %p\n", "World", -42, -42, -42, &s));
     printf("%d\n", printf("Hello, %s! %d %x %X %p\n", "World", -42, -42, -42, &s));
-    //other ***********************************************************************
-    ft_printf("-----------------OTHER-----------------\n");
-    ft_printf("%###########x\n", 400);
-    printf("%##########x\n", 400);
-    ft_printf("%        d\n", 400);
-    printf("%        d\n", 400);
-
+    //flags ***********************************************************************
+    ft_printf("-----------------FLAGS-----------------\n");
+    ft_printf("%#x\n", 42);
+    printf("%#x\n", 42);
+    ft_printf("%#X\n", 42);
+    printf("%#X\n", 42);
+    ft_printf("% d\n", 42);
+    printf("% d\n", 42);
+    ft_printf("% d\n", -42);
+    printf("% d\n", -42);
 
 
     return (0);
