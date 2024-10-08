@@ -126,7 +126,8 @@ int main ()
     ft_printf("%#x\n", INT_MAX);
     printf("%#x\n", INT_MAX);
 
-
+    ft_printf("% x\n", INT_MAX);
+    printf("% x\n", INT_MAX);
 
 
 
