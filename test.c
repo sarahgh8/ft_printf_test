@@ -119,6 +119,13 @@ int main ()
     ft_printf("%      d\n", -42);
     printf("%      d\n", -42);
 
+    ft_printf("-----------------EXTRA-----------------\n");
+    ft_printf("%#x\n", INT_MIN);
+    printf("%#x\n", INT_MIN);
+
+    ft_printf("%#x\n", INT_MAX);
+    printf("%#x\n", INT_MAX);
+
 
 
 
